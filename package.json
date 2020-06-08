@@ -1,9 +1,8 @@
 {
-  "name": "employee-directory",
+  "name": "loneyb11.github.io",
   "version": "1.0.0",
   "description": "React App employee directory",
-  "homepage": "https://loneyb11.github.io/employee-directory",
-  "main": "index.js",
+  "homepage": "https://loneyb11.github.io/",
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1",
@@ -12,11 +11,14 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "deploy": "gh-pages -b master -d build"
   },
   "browserslist": {
     "production": [
